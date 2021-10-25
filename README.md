@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+BLACK LIVES MATTER ✊🏾 ✊🏾 ✊🏾
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+"You Are Now Entering The Black Experience"
 
-In the project directory, you can run:
+Welcome to the Black Excellence/ Black Fashion Project!
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Here, (https://blackfashionproject.netlify.app/) the user enters the landing page where the user can chose between shopping the womens or mens collection.  
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+When the user clicks on 'Shop Men's', the user will be redirected to the men's fashion collection page (https://blackfashionproject.netlify.app/menswear). When the user clicks on the 'Shop Women's, the user will be redirected to the women's fashion collection page (https://blackfashionproject.netlify.app/womenswear). 
 
-### `npm test`
+At the top of the page is the nav bar. Here, the user can navigate between four different buttons: 'Home', 'Women's', 'Men's', and 'Create Brand'. The user can go back to the landing page by clicking 'Home', can be directed to either the men's or women's collections, or the user can make their own brand (The user can do this by clicking 'Create Brand' and filling out the provided form to create a brand).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+Below, the user is able to update and delete information for each brand's collection by simply clicking 'Update' or 'Delete'. With 'Update', the user can update the provided form to update the information. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+When the user clicks on a brand's logo, they will then be redirected to the brand's current collection, provided with various tops, bottoms, shoes, and accessories.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+At the very bottom of the page, there is a form and a 'Subscribe' button where the user can enter their email address and click the 'Subscribe' button. Once clicked, an alert will pop up on the screen saying, "Thank you for subscribing!"
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+** Front-end made with React.js
+** All buttons and forms were made using Javascript
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+For the Women's and Men's Wear APIs.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+With https://sdblackproject.herokuapp.com/, the user starts at the root url/directory which presents a blank page. Once here, the user needs to add either 'WomenFashion' to the root which redirects to the Women's Fashion API or add 'menswear' to the root to be redirect to the Men's Fashion API.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Once the user gets redirected to either API, the user can find four different womens or mens fashion brands, along with each brand's logo, CEO's name, type of fashion, price point, and different items within different categories.
 
-## Learn More
+The user can type https://sdblackproject.herokuapp.com/womenswear/ or https://sdblackproject.herokuapp.com/menswear/ and add any of the brand names provided to the end of the url to find specific information on that specfic brand.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+New brands are created and added for the user to view.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Information for each brand is updated frequently.
 
-### Code Splitting
+When new collections are released, information on older collections are deleted frequently.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+These APIs are based on the Women's Wear API and Men's Wear by Shanica Denis.
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Back-end made with Mongo/ Mongoose, and Express
+**APIs deployed using Heroku and MongoDB Atlas
