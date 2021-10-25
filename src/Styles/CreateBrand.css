@@ -1,0 +1,18 @@
+label {
+    color: #bc925a;
+}
+
+.btn {
+    background-color: black;
+    color: #bc925a;
+    border: 1px solid #bc925a;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px
+}
+
+.btn:hover {
+    background-color: #bc925a;
+    color: black;
+}
+

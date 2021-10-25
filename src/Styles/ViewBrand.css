@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box
+}
+.card-deck {
+    display: flex;
+    flex-flow: row wrap;
+    margin-right: -15px;
+    margin-left:-15px;
+}
+div {
+    display: block;
+}
+.viewBrand {
+    text-align: center;
+    margin-left: 200px; 
+    color: #bc925a
+}
+
+.boxy {
+    padding: 25px 0px;
+    border: 1px solid #bc925a;
+}
+.card-deck .card {
+    flex: 1 0;
+    margin-right: 15px;
+    margin-bottom: 0;
+    margin-left: 15px;
+}
+.card {
+    width: 18rem;
+    position: realtive;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+}
+
+.card-body {
+    background-color: #020202;
+    min-height: 500px 
+}
+.card-img-top {
+    vertical-align: middle;
+    border-top-left-radius: calc(0.25rem -1px);
+    border-top-right-radius: cal(0.23rem -1px);
+    flex-shrink: 0;
+    width: 100%
+}

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./HomePage.css";
+import "../Styles/HomePage.css";
 
 function HomePage() {
     return (
@@ -10,17 +10,19 @@ function HomePage() {
             </div>
             <div className="img-container">
                 <h1 className="headline">You Are Now Entering The Black Experience</h1>
-                <div>
-                    <button>
-                        <Link to="/menswear">
+
+                <div className='home'>
+                    <Link className='mensHome' to="/menswear">
+                        <button className="buttons">
                             Shop Men's
-                        </Link>
-                    </button>
-                    <button>
-                        <Link to="/womenswear">
+                        </button>
+                    </Link>
+
+                    <Link className='womensHome' to="/womenswear">
+                        <button className="buttons">
                             Shop Women's
-                        </Link>
-                    </button>
+                        </button>
+                    </Link>
                 </div>
             </div>
         </div>

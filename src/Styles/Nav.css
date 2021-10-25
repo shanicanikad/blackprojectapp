@@ -1,0 +1,28 @@
+h4 {
+    padding: 0px;
+    margin: 0px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+ul {
+    margin-top: 0px;
+    padding-left: 5px;
+    background-color: #bc925a;
+}
+
+.change {
+    color: #5e492f;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.navButton {
+    background-color: #bc925a;
+    border: none;
+    padding: 20px;
+}
+
+.navButton:hover {
+    text-decoration: underline;
+}

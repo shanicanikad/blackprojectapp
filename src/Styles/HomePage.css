@@ -1,13 +1,28 @@
-button {
-    border: 2px solid gold;
+.headline {
+  font-weight: 400;
+  text-align: center;
+  color: #bc925a;
+  font-size: 50px;
+}
+
+.buttons {
+    border: 2px solid #bc925a;
     color: #bc925a;
     padding: 20px;
     margin: 0px;
     border-radius: 10px;
     background-color: black;
     font-size: large;
-    font-weight: 900;
 }
+.buttons:hover {
+    background-color: #bc925a;
+    color: black;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+
 .app {
     width: 100%;
     display: flex;
@@ -29,7 +44,7 @@ button {
   
   /* Container needed to position the button. Adjust the width as needed */
   .img-container {
-    background-image: url("./Images/mainimg.jpg"); 
+    background-image: url("../Components/Images/mainimg.jpg"); 
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -41,20 +56,13 @@ button {
     padding-bottom: 5%;
   }
   
-  .headline {
-    color: #bc925a;
-    font-size: 50px;
-  }
-  
   .img-container div {
     display: flex;
     justify-content: space-between;
     width: 30%;
     color: #bc925a;
   }
- .Link {
-     text-decoration: none;
- }  
+
 
   
   

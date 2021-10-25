@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+}
+
+.img-fluid {
+    height: 400px;
+    width: 500px;
+    padding-bottom: 20px;
+}
+.cards {
+    padding: 20px;
+}
+
+.cards-grid {
+    display: inline-block;
+    margin: auto;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    margin-right: none;
+}
+
+.update, .delete {
+    color:#bc925a;
+    text-decoration: none;
+    padding-left: none;
+    padding: 20px 
+}
+
+
+.update:hover, .delete:hover {
+    color: gold
+}
+
+.box-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.website {
+    color: #bc925a;
+    padding-bottom: 30px;
+    text-decoration: none;
+    padding-left: 20px
+}
+.website:hover {
+    color: gold;
+}
