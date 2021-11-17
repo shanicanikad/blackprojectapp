@@ -61,7 +61,7 @@ function UpdateBrands() {
       .then(function (response) {
         if (response.status == 200) {
           // change when deploying
-          window.location.href = `https://shanicanikad.github.io/${
+          window.location.href = `https://blackfashionproject.netlify.app/${
             params.gender == "menswear" ? "menswear" : "womenswear"
           }`;
         }

@@ -41,7 +41,7 @@ function CreateBrand() {
         } else {
           shopBrand = "womenswear";
         }
-        window.location.href = `https://shanicanikad.github.io/${shopBrand}`;
+        window.location.href = `https://blackfashionproject.netlify.app/${shopBrand}`;
       });
   };
 
