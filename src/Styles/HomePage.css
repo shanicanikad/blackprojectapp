@@ -41,26 +41,24 @@
     text-decoration: none;
     font-size: 80px;
   }
-  
-  /* Container needed to position the button. Adjust the width as needed */
-  .img-container {
+
+  body { 
     background-image: url("../Components/Images/mainimg.jpg"); 
-    background-size: cover;
+    background-position: center center; 
     background-repeat: no-repeat;
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    flex-direction: column;
-    padding-bottom: 5%;
-  }
+    background-attachment: fixed; 
+    background-size: cover;
+  } 
   
-  .img-container div {
+  .home {
     display: flex;
     justify-content: space-between;
     width: 30%;
     color: #bc925a;
+    width: auto ;
+    max-width: 100% ;
+    height: auto ;
+    padding: 0px 20px 
   }
 
 

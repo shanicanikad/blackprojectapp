@@ -28,7 +28,7 @@ function ShopMens(props) {
 
         return (
             <div className="cards">
-                <div className="cards-grid" key={i}>
+                <div className="cards-grid" id="background" key={i}>
                     <Link to={`/men/brand/${encodedbrand_name}`}>
                         <img
                             src={brand.logo}
@@ -36,11 +36,11 @@ function ShopMens(props) {
                             alt="Responsive image"
                         />
                     </Link>
-                    <p><a href={brand.link} className= 'website'>{brand.link}</a></p>
+                    <p><a href={brand.link} className='website'>{brand.link}</a></p>
 
 
                     <div className="cardFooter">
-                        <Link className= 'update' to={`/updatebrand/menswear/${encodeURI(brand.brand_name)}`}
+                        <Link className='update' to={`/updatebrand/menswear/${encodeURI(brand.brand_name)}`}
                         >
                             Update
                         </Link>
@@ -49,22 +49,21 @@ function ShopMens(props) {
                         <a className="delete" onClick={() => remove(brand.brand_name)}>
                             Delete
                         </a>
-
                     </div>
                 </div>
             </div>
         );
-    });
+});
 
-    return (
-        <div>
-            <Nav />
-            <div className='box-grid'>{BrandList}</div>
-            <footer>
-                <Subscribe />
-            </footer>
-        </div>
-    );
+return (
+    <div>
+        <Nav />
+        <div className='box-grid'>{BrandList}</div>
+        <footer>
+            <Subscribe />
+        </footer>
+    </div>
+);
 }
 
 export default ShopMens

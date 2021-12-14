@@ -4,7 +4,7 @@ import '../Styles/Nav.css'
 
 function Nav() {
     return (
-        <div>
+        <div className= "whole">
             <div className="header">
                 <h4>BLACK LIVES MATTER</h4>
             </div>

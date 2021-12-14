@@ -11,6 +11,34 @@ function HomePage() {
             <div className="img-container">
                 <h1 className="headline">You Are Now Entering The Black Experience</h1>
 
+
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+
                 <div className='home'>
                     <Link className='mensHome' to="/menswear">
                         <button className="buttons">
