@@ -17,7 +17,7 @@ function ShopMens(props) {
                     brand_name,
                 }
             )
-            .then(function (respone) {
+            .then(function (response) {
                 alert("This Brand has been deleted!")
             })
     }
@@ -28,42 +28,42 @@ function ShopMens(props) {
 
         return (
             <div className="cards">
-                <div className="cards-grid" id="background" key={i}>
-                    <Link to={`/men/brand/${encodedbrand_name}`}>
-                        <img
-                            src={brand.logo}
-                            className="imgs"
-                            alt="Responsive image"
-                        />
-                    </Link>
-                    <p><a href={brand.link} className='website'>{brand.link}</a></p>
-
-
-                    <div className="cardFooter">
-                        <Link className='update' to={`/updatebrand/menswear/${encodeURI(brand.brand_name)}`}
-                        >
-                            Update
+                <div className="cards-grid" key={i}>
+                    <div className="card" id="background1">
+                        <Link to={`/men/brand/${encodedbrand_name}`}>
+                            <img
+                                src={brand.logo}
+                                className="img-fluid"
+                                alt="Responsive image"
+                            />
                         </Link>
+                        <p><a href={brand.link} className='website'>{brand.link}</a></p>
+
+                        <div className="cardFooter" style={{ backgroundColor: "#020202" }}>
+                            <Link className='update' to={`/updatebrand/menswear/${encodeURI(brand.brand_name)}`}
+                            >
+                                Update
+                            </Link>
 
 
-                        <a className="delete" onClick={() => remove(brand.brand_name)}>
-                            Delete
-                        </a>
+                            <a className="delete" onClick={() => remove(brand.brand_name)}>
+                                Delete
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
+            
         );
-});
+    });
 
-return (
-    <div>
-        <Nav />
-        <div className='box-grid'>{BrandList}</div>
-        <footer>
+    return (
+        <div>
+            <Nav />
             <Subscribe />
-        </footer>
-    </div>
-);
+            <div className="box-grid">{BrandList}</div>
+        </div>
+    );
 }
 
 export default ShopMens

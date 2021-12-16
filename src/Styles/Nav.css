@@ -1,7 +1,8 @@
 .whole {
     width: auto ;
-    max-width: 100% ;
-    height: auto ;
+    max-width: 500% ;
+    margin: 0;
+    padding: 0;
 }
 
 h4 {

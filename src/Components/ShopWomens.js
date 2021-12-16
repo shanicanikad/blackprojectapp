@@ -28,7 +28,8 @@ function ShopWomens(props) {
 
         return (
             <div className="cards">
-                    <div className="cards-grid" id="background" key={i}>
+                <div className="cards-grid" key={i}>
+                    <div className="card" id="background1">
                         <Link to={`/women/brand/${encodedbrand_name}`}>
                             <img
                                 src={brand.logo}
@@ -51,16 +52,16 @@ function ShopWomens(props) {
                         </div>
                     </div>
                 </div>
+            </div>
+            
         );
     });
 
     return (
         <div>
             <Nav />
+            <Subscribe />
             <div className="box-grid">{BrandList}</div>
-            <footer>
-                <Subscribe />
-            </footer>
         </div>
     );
 }

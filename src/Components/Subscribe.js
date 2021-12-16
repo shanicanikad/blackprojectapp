@@ -3,13 +3,13 @@ import '../Styles/Subscribe.css'
 
 function Subscribe() {
     return (
-        <div className="forMore"> For Monthly Updates, Please Subscribe
+        <div className="forMore">
             <div class="contain1">
-                <input className= 'subscribe' type="text" placeholder="Email address" name="mail" required />
-                <p><button onClick={() => alert("Thank you for Subscribing!")}> Subscribe </button></p>
-            </div> OR Email Us
-            <div class="contain1">
-            <p><a href='mailto:shanicanikad@gmail.com'><button> Email </button></a></p>
+                <form action="https://formsubmit.co/shanicanikad@gmail.com" method="POST">  For Monthly Updates, Please Subscribe
+                <br />
+                    <input type="text" placeholder="Email address" name="mail" required />
+                    <input type="submit" value="Subscribe" />
+                </form>
             </div>
         </div>
     )

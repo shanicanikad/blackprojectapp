@@ -2,26 +2,19 @@
     color: #bc925a;
     padding-left: 20px;
     padding-bottom: 20px;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .contain1 {
     padding-top: 20px;
 }
 
-button {
-    background-color: black;
-    color: #bc925a;
-    border: 1px solid #bc925a;
-    padding: 10px;
-    border-radius: 10px;
-}
 
-button:hover {
-    background-color: #bc925a;
-    color: black;
+.fixing {
+    color: white;
+    padding-top: 30px;
 }
+form {
+    padding-right: 50px;
 
-.subscribe {
-    width: 50%
 }
