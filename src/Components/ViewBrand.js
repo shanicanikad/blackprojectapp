@@ -40,12 +40,14 @@ function ViewBrand() {
     let ProductList = products.map((product, a) => {
       // Each product as a card
       return (
-        <div class="boxy">
-          <div class="card" key={i}>
+        <div className="cards1">
+          <div className="cards-grid1" key={i}>
+            <div className="card1">
             <img src={product.image_url} class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">{product.name}</h5>
               <p class="card-text">{product.details}</p>
+            </div>
             </div>
           </div>
         </div>
