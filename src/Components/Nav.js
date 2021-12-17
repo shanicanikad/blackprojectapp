@@ -14,6 +14,7 @@ function Nav() {
                 <button className= 'navButton'><Link className= 'change' to='/menswear'>Men's</Link></button>
                 <button className= 'navButton'><Link className= 'change' to='/womenswear'>Women's</Link></button>
                 <button className= 'navButton'><Link className= 'change' to='/create'>Create Brand</Link></button>
+                <button className= 'navButton'><Link className= 'change' to='/video'>Featured Brand Videos</Link></button>
             </ul>
            </nav>
         </div>

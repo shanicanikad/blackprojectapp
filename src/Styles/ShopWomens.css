@@ -48,12 +48,12 @@
     color: #bc925a;
     padding-bottom: 30px;
     text-decoration: none;
-    padding-left: 20px
+    padding-left: 20px;
+    font-size: small;
 }
 
 .website:hover {
     color: gold;
 }
-#background1 {
-    background-color: black;
-}
+
+

@@ -7,6 +7,7 @@ import ShopWomens from './Components/ShopWomens';
 import CreateBrands from './Components/CreateBrands'
 import ViewBrand from './Components/ViewBrand'
 import Update from './Components/UpdateBrand'
+import Video from './Components/Videos';
 
 
 function App() {
@@ -85,6 +86,14 @@ function App() {
         path="/create"
         render={() => {
           return <CreateBrands />;
+        }}
+      />
+
+      <Route
+        exact
+        path="/video"
+        render={() => {
+          return <Video />;
         }}
       />
 

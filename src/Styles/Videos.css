@@ -1,0 +1,22 @@
+iframe {
+    width: 420px; 
+    height: 345px; 
+}
+
+#mens {
+    color: white;
+}
+
+tr {
+    display:block
+}
+
+td {
+    width:100%;
+    padding: 30px;  
+}
+
+.both {
+    color: white;
+    text-align: center;
+}
