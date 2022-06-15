@@ -44,10 +44,6 @@
 
   .app { 
     background-image: url("../Components/Images/mainimg.jpg"); 
-    background-position: center center; 
-    background-repeat: no-repeat;
-    background-attachment: fixed; 
-    background-size: cover;
     width: 100%;
     height: auto;  
 } 
